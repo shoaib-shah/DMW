@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin:0;
+        }
+        .continer{
+    height: 3000PX;
+    width: 100%;
+    border: 2px solid rgb(56, 233, 85);
+    background-color:mediumaquamarine;
+} 
+.box{
+    height: 150px;
+    width: 150px;
+    border: 10px groove rgb(255, 166, 49);
+    text-align: center;
+    font-size: 35px;
+    display: inline-block;
+    }       
+    #boxrelative{
+        position: relative;
+        top: 100px;
+        /* left: 100px; */
+        /* right: 100px; */
+    }
+    #boxabsolute{
+        position: absolute;
+        top: 200px;
+        /* left: 100px; */
+        /* right: 100px; */
+    }   
+    #boxfixed{
+        position: fixed;
+        /* top: 300px; */
+        /* left: 100px; */
+        right: 100px;
+        bottom: 10PX;
+    }
+    #boxsticky{
+        position: sticky;
+        top: 380px;
+        left: 100px;
+        right: 100px;
+    }
+
+    </style>
+</head>
+<body>
+   <div class="continer" >
+    <div class="box" id="boxrelative">one</div>
+    <div class="box" id="boxabsolute">two</div>
+    <div class="box" id="boxfixed">three</div>
+    <div class="box" id="boxsticky">four</div>
+   </div>
+</html>
