@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: aquamarine; 
+            transition: width 4s , height 4s ,transform 4s;
+            animation-name: second;
+        }
+            div:hover{
+                width: 300px;
+                height: 300px;
+                transform: rotate(180deg);
+            }       
+            @keyframes second{
+                0%{background-color: aquamarin;left: 0px;top: 200px;
+                transform:rotate(180deg) ;} 
+                25%{background-color: blue;left:200px;top: 0px;}
+                50%{background-color: purple;left: 200px;top: 200px; }
+                75%{background-color: yellow;left: 0px;top: 200px;}
+                100%{background-color: aquamarine; left: 0px;top: 0px;}
+            }
+    </style>
+</head>
+<body>
+    <DIv></DIv>
+</body>
+</html> 
