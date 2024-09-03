@@ -1,0 +1,54 @@
+
+.what{
+    display: flex;
+    height: 50PX;
+    width: 90%;
+    background-color: #141010;
+    color: white;
+    flex-direction:row;
+    padding:3%;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    flex: auto auto auto auto auto auto;
+    text-align: center;
+}
+      .ONE{
+        color: white;
+        flex: auto;
+        font-size: 30PX;
+        }
+        .TWO{
+            color: white;
+            flex:auto;
+            font-size: 20px;
+            background-color: aliceblue;
+            color: #141010;
+            border-radius: 20PX;
+            padding: 10PX;
+        
+        }
+        .THREE{
+            color: white;
+            flex:auto ;
+            font-size: 20px;
+            text-align: center;
+        }
+        .FOUR{
+            color: white;
+            flex: auto;
+            font-size: 20px;
+            text-align: center;
+        } 
+        .FIVE{
+            color: white;
+            flex: auto;
+            font-size: 20px;
+            text-align: center;
+        }
+        .SIX{
+            color: white;
+            flex: auto;
+            font-size: 20px;
+            text-align: center;
+        }  
